@@ -27,7 +27,7 @@ function iniciarContagem(dataInicial) {
         const anos = Math.floor(dias / 365);
         const meses = Math.floor((dias % 365) / 30);
 
-        contador.textContent = `${anos} anos, ${meses} meses, ${dias} dias, ${horas} horas, ${minutos} minutos, ${segundos} segundos`;
+        contador.textContent = `${anos} anos, ${meses} meses, ${horas} horas, ${minutos} minutos, ${segundos} segundos`;
     }
 
     atualizarContagem();
